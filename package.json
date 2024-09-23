@@ -1,0 +1,20 @@
+{
+  "name": "reactAtlon",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "^5.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.14.0"
+  }
+}
