@@ -1,0 +1,49 @@
+/* Estilo para la marca y alineación */
+.navbar {
+  padding-top: 5px;  /* Reducir padding superior */
+  padding-bottom: 5px;  /* Reducir padding inferior */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+/* Ajustar el tamaño del logo si es muy grande */
+.navbar-brand img {
+  width: 150px;  /* Puedes ajustar según tu preferencia */
+  height: 70px;
+}
+
+/* Botón Dashboard */
+.btn-dashboard {
+  background-color: #FF6F3B;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  padding: 3px 10px;  /* Ajusta el padding para reducir altura */
+  font-size: 14px;  /* Ajusta el tamaño de la fuente para reducir altura del botón */
+}
+
+/* Cambiar color al pasar el ratón */
+.btn-dashboard:hover {
+  background-color: #ff8b5e; /* Nuevo color de fondo al hacer hover */
+  color: white;  /* Mantener texto blanco */
+}
+
+/* Botón Logout */
+.btn-logout {
+  border-radius: 20px;
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  padding: 3px 10px;  /* Ajusta el padding para reducir altura */
+  font-size: 14px;  /* Ajusta el tamaño de la fuente para reducir altura del botón */
+}
+
+/* Cambiar color al pasar el ratón */
+.btn-logout:hover {
+  background-color: #f0f0f0;  /* Cambia el color de fondo a un gris claro */
+  color: black;  /* Mantener texto negro */
+}

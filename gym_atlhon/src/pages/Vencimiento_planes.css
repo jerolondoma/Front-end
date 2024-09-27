@@ -1,0 +1,97 @@
+ody {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Customization */
+
+/* Card Styles */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+ 
+}
+
+/* Form Elements */
+input.form-control, select.form-select {
+  border-radius: 20px;
+  padding: 10px;
+}
+
+button {
+  border-radius: 20px;
+  
+
+}
+
+/* Button Styles */
+button.btn-outline-primary,
+button.btn-outline-secondary {
+  border-width: 2px;
+}
+
+button.btn-primary {
+  background-color: #f26522;
+  border: none;
+}
+
+button.btn-outline-primary {
+  color: #f26522;
+  border-color: #f26522;
+}
+
+button.btn-outline-primary:hover {
+  background-color: #f26522;
+  color: white;
+}
+
+/* Profile Image */
+.list-group-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Footer Customization */
+footer {
+  margin-top: 30px;
+  color: #6c757d;
+}
+
+/* Checkbox Customization */
+.form-check-input {
+  width: 20px;
+  height: 20px;
+}
+
+.form-check-label {
+  margin-left: 10px;
+}
+
+/* Adjustments for the Membership Expiration Section */
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.list-group-item span {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+/* Align buttons in a row with equal spacing */
+.list-group-item .btn {
+  margin-left: 15px;
+}
+
+.btn-outline-secondary {
+  display: flex;
+  align-items: center;
+}
+
+.btn-outline-secondary i {
+  margin-right: 5px;
+}

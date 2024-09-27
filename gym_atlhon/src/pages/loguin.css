@@ -1,0 +1,131 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+   
+  }
+
+  .header-title {
+    color: rgb(228, 122, 36);
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+
+  .login-container {
+
+    width: 1450px;
+    height: 630px;
+    padding-right: 150px;
+    background-image: url('imagenes/gym.jpeg'); 
+    background-size: cover;
+    background-position: top center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    
+  }
+  
+  .login-box {
+    height: 330px; 
+    background-color: rgba(0, 0, 0, 0.897);
+    padding: 26px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    width: 275px;
+    text-align: center;
+  }
+  
+
+.logo-1 {
+    height: 50%; 
+    width: 55%;
+    border-radius: 50%; 
+    border: 3px solid rgba(236, 134, 17, 0.562);
+    margin-top: -110px;
+    border-radius: 50%;
+   
+  }
+  
+
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+
+  .form-group label {
+    color: white;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+  }
+ 
+  .form-group input {
+    width: 87%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .login-button {
+    width: 60%;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    background-color: #f8f5f5;
+    color: rgb(2, 2, 2);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+  }
+  
+  .login-button:hover {
+    background-color: #f58c37;
+  }
+
+  /*encabezado */
+.header {
+    background-color: #000000;
+    padding: 5px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+
+  }
+
+  .header-logo {
+    height: 60px; 
+    width: 60px;
+    border-radius: 50%; 
+    border: 2px solid #ff5100; 
+  }
+  
+
+  .login-button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .login-button-link:hover {
+    background-color: #555;
+  }
+
+

@@ -1,0 +1,76 @@
+/* customStyles.css */
+
+/* Clase única para el contenedor principal */
+.unique-report-interface {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Títulos */
+  .unique-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .unique-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Labels únicos */
+  .unique-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Botón personalizado */
+  .btn-orange {
+    background-color: #ff7043;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-orange:hover {
+    background-color: #ff5722;
+  }
+  
+  /* Contenedor de vista del reporte */
+  .unique-report-view {
+    background-color: white;
+    border-radius: 10px;
+  }
+  
+  .unique-report-content {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  /* Estilo para la gráfica */
+  .unique-chart {
+    flex-grow: 1;
+    max-width: 400px;
+  }
+  
+  .chart-placeholder {
+    width: 100%;
+    height: 200px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+  }
+  
+  /* Sección de exportar opciones */
+  .unique-export-options {
+    text-align: center;
+  }
+  
+  .unique-export-options button {
+    margin: 5px;
+  }
+  
